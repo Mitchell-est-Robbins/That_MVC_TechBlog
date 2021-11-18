@@ -15,7 +15,7 @@ Project.belongsTo(User, {
 
 // each project can have a bunch of comments
 Project.hasMany(Comment, {
-  foreignKey: 'user_id',
+  foreignKey: 'project_id',
   onDelete: 'CASCADE'
 });
 
