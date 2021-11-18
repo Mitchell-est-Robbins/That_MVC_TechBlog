@@ -6,10 +6,12 @@
 </div>
 
 
-{{#each comment as |comment| }}
+{{#each comments as |comment| }}
 {{!-- text from comment --}}
-<h3>{{text}}</h3>
+<li>{{text}}</li>
 {{/each}}
+
+
 <form id="comment">
   
   <div class='form-group'>
