@@ -10,7 +10,7 @@
 {{!-- text from comment --}}
 <h3>{{text}}</h3>
 {{/each}}
-<form id="comPost">
+<form id="comment">
   
   <div class='form-group'>
     <label> Comment: </label>
@@ -18,7 +18,7 @@
   </div>
   <input type="hidden" name="post_id" value="{{id}}" id="post_id" />
   <div class='form-group'>
-    <button type="submit" class='btn btn-primary'>Submit</button>
+    <button id="comPost" type="button" class='btn btn-primary'>Submit</button>
   </div>
 
 </form>

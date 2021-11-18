@@ -19,6 +19,4 @@ const newFormHandler = async (event) => {
     }
 };
 
-document
-  .querySelector('#comPost')
-  .addEventListener('submit', newFormHandler);
+document.querySelector('#comPost').addEventListener('click', newFormHandler);
