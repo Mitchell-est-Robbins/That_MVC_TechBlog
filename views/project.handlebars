@@ -9,5 +9,17 @@
 {{#each comment as |comment| }}
 {{!-- text from comment --}}
 <h3>{{text}}</h3>
+{{/each}}
+<form id="comPost">
+  
+  <div class='form-group'>
+    <label> Comment: </label>
+    <textarea class="form-input" id="comtext" name="comtext"></textarea>
+  </div>
+  <input type="hidden" name="post_id" value="{{id}}" id="post_id" />
+  <div class='form-group'>
+    <button type="submit" class='btn btn-primary'>Submit</button>
+  </div>
 
-{{!-- figure out how to make this as a form --}}
+</form>
+<script src='/js/profile.js'></script>
