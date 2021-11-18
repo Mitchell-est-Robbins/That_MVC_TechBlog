@@ -2,7 +2,7 @@ const { Model, DataTypes } = require('sequelize');
 const sequelize = require('../config/connection');
 
 class Project extends Model {}
-
+// might need to change name....to post to be less like the miniproject
 Project.init(
   {
     id: {
