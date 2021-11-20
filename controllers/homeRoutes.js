@@ -1,5 +1,6 @@
 const router = require('express').Router();
 const { Project, User, Comment } = require('../models');
+//                         ^^ thanks to ask BCS learning assist. 
 const withAuth = require('../utils/auth');
 
 router.get('/', async (req, res) => {
